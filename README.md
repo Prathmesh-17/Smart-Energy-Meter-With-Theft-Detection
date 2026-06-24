@@ -30,6 +30,10 @@ The system consists of:
 
 One ESP32 monitors the power supplied from the source, while the second ESP32 monitors the power consumed by the load. The system continuously compares both measurements to identify abnormal differences that may indicate electricity theft.
 
+## Block Diagram
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/3c3c1dd3-05d2-4026-b38e-cc4cd79ca599" />
+
 ## Working Principle
 
 1. Current and voltage sensors collect electrical parameters.
@@ -49,6 +53,14 @@ One ESP32 monitors the power supplied from the source, while the second ESP32 mo
 | LCD 16x2 Display        | 1        |
 | LED Indicators          | Multiple |
 | Power Supply            | 1        |
+
+## Hardware Implementation
+
+<img width="559" height="360" alt="image" src="https://github.com/user-attachments/assets/694714bf-77e5-40dc-aa6c-2be5d0bd07ad" />
+
+## IoT Webpage
+
+<img width="646" height="345" alt="image" src="https://github.com/user-attachments/assets/a208cbae-c74f-404a-9eb6-7ac1b7b2c9e4" />
 
 ## Technologies Used
 
